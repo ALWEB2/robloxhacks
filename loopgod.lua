@@ -1,4 +1,4 @@
-while(wait(0.5)) do
+while(wait(3)) do
 local player = game.Players.LocalPlayer
 if player.Character then
 if player.Character:FindFirstChild("Humanoid") then
