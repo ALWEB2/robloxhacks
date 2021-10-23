@@ -1,5 +1,7 @@
 # robloxhacks
 
+ALWAYS SAVE THEM IN DIFFERENT FILES AND EXECUTE THEM ONE BY ONE. OR IT WILL NOT WORK.
+
 Info:
 
 How to use swordfight script:
