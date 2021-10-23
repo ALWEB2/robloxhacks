@@ -1,5 +1,5 @@
 local function loopgodmode()
-while(wait(1)) do
+while(wait(5)) do
 local player = game.Players.LocalPlayer
 if player.Character then
 if player.Character:FindFirstChild("Humanoid") then
