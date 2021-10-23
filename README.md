@@ -5,10 +5,10 @@ Info:
 How to use swordfight script:
 execute and take out your sword, it will kill everyone in games that don't have it patched
 
-How to use godmode script:
+How to use loopgod script:
 You cannot use your sword while you have godmode, instead, when your character's hair falls off, you can equip your sword.
 It will tp them and glue them to your character, drag them to the edge of the map and fall into the void with them.
-You will also not get killed.
+You will also not get killed by a sword.
 Note: You respawn with godmode every 2 seconds, it will be useful to use both.
 
 How to use both:
