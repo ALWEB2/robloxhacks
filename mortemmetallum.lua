@@ -1,4 +1,3 @@
-loadstring(game:HttpGet('https://raw.githubusercontent.com/ALWEB2/robloxhacks/main/mortem.lua'))()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/ALWEB2/robloxhacks/main/aimbot.lua'))()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/ALWEB2/robloxhacks/main/ESP.lua'))()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
@@ -131,7 +130,7 @@ while wait(0.3) do
                                         wait()
                                     end
                                 end
-                                wait(0.6) --Prevents mass event firing
+                                wait(0.3) --Prevents mass event firing
                             end
                         end
                     end
@@ -148,8 +147,6 @@ while wait(0.3) do
     if game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart"):FindFirstChild("BodyVelocity") then
        game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart"):FindFirstChild("BodyVelocity"):Destroy()
     end
-    game.Players.LocalPlayer.Character.Humanoid.MaxHealth = 500
-    game.Players.LocalPlayer.Character.Humanoid.Health = 500
     game.Players.LocalPlayer.Character.Health.Disabled = true
     game.Players.LocalPlayer.Character.RagdollSound.Disabled = true
     game.Players.LocalPlayer.Character.Fall.Disabled = true
