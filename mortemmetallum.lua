@@ -153,7 +153,7 @@ while wait(0.3) do
     game.Players.LocalPlayer.Character.Runscript.Disabled = true
     game.Players.LocalPlayer.Character.JumpCooldown.Disabled = true
 game.Players.LocalPlayer.Character.Runscript.Stamina.Value = 100
---game.Players.LocalPlayer.Character.Runscript.SlowDown.Value = 1.2
+game.Players.LocalPlayer.Character.Runscript.SlowDown.Value = 1.15
 --autorun but buggy
 --game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 25 --Walkspeed of your choice
 end
