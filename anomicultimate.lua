@@ -1,4 +1,7 @@
+-- made by jerrytoaster556 for mre
+
 loadstring(game:HttpGet('https://raw.githubusercontent.com/colbmane/leaked-shit/main/yoderwork'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Shariiii/Anomic-Stuff/main/Anti%20Anti%20Teleport%20But%20Less%20Taxing.lua'))()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Shariiii/Anomic-Stuff/main/Anti%20Car%20Stuff.lua'))()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Shariiii/Anomic-Stuff/main/Anti%20Noclip%20Bypass.lua'))()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Shariiii/Anomic-Stuff/main/Anti%20Spawn%20CD.lua'))()
