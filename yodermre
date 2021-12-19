@@ -11701,7 +11701,7 @@ addcmd('itemfinder',{'itemfind'},function(args, speaker)
     wait(.1)
 	local players = getPlayer(args[1], speaker)
 	for i,v in pairs(players) do
-	    execCmd('itemfinder')
+	    execCmd('bypass')
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/ALWEB2/robloxhacks/main/itemfinder'))()
 	end
 end)
