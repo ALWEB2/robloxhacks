@@ -4490,6 +4490,8 @@ CMDs[#CMDs + 1] = {NAME = 'xray', DESC = 'Makes all parts in workspace transpare
 CMDs[#CMDs + 1] = {NAME = 'unxray / noxray', DESC = 'Restores transparency'}
 CMDs[#CMDs + 1] = {NAME = 'nocrash / bypass', DESC = 'Disables void anticheat'}
 CMDs[#CMDs + 1] = {NAME = 'itemfinder / itemfind', DESC = 'Finds all dropped items (MREADDON)'}
+CMDs[#CMDs + 1] = {NAME = 'getprinter / getprinters', DESC = 'Finds all unlocked printers (MREADDON)'}
+CMDs[#CMDs + 1] = {NAME = 'unlockprinter / unlockprinters', DESC = 'Unlocks printers (MREADDON)'}
 CMDs[#CMDs + 1] = {NAME = 'spectate / view [plr]', DESC = 'View a player'}
 CMDs[#CMDs + 1] = {NAME = 'viewpart / viewp [part name]', DESC = 'View a part'}
 CMDs[#CMDs + 1] = {NAME = 'unspectate / unview', DESC = 'Stops viewing player'}
@@ -11703,6 +11705,27 @@ addcmd('itemfinder',{'itemfind'},function(args, speaker)
 	for i,v in pairs(players) do
 	    execCmd('bypass')
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/ALWEB2/robloxhacks/main/itemfinder'))()
+	end
+end)
+
+--mre addon
+addcmd('getprinters',{'getprinter'},function(args, speaker)
+    wait(.1)
+	local players = getPlayer(args[1], speaker)
+	for i,v in pairs(players) do
+	    execCmd('bypass')
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Shariiii/Anomic-Stuff/main/Pick%20All%20UnLocked%20Printers.lua'))()
+	end
+end)
+
+
+--mre addon
+addcmd('unlockprinter',{'unlockprinters'},function(args, speaker)
+    wait(.1)
+	local players = getPlayer(args[1], speaker)
+	for i,v in pairs(players) do
+	    execCmd('bypass')
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Shariiii/Anomic-Stuff/main/Unlock%20and%20Cash%20Printers.lua'))()
 	end
 end)
 
