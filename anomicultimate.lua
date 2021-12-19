@@ -17,5 +17,5 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/Shariiii/Anomic-Stuff
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Shariiii/Anomic-Stuff/main/Instant%20Jail%20%2B%20Baton%20Destroy%20Printer%20%2B%20one%20more%20ok%20thing.lua'))()
 --loadstring(game:HttpGet('https://raw.githubusercontent.com/Shariiii/Anomic-Stuff/main/Name%20Who.lua'))()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Shariiii/Anomic-Stuff/main/OP%20gun%20support%20script.lua'))()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Shariiii/Anomic-Stuff/main/OP%20shotgun%20script.lua'))()
+--loadstring(game:HttpGet('https://raw.githubusercontent.com/Shariiii/Anomic-Stuff/main/OP%20shotgun%20script.lua'))()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Shariiii/Anomic-Stuff/main/WalkSpeed%20Bypass%20(Open%20Source).lua'))()
