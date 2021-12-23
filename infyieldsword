@@ -8763,32 +8763,6 @@ addcmd('userid',{'id'},function(args, speaker)
 end)
 
 addcmd('bypass',{},function(args, speaker)
-    repeat wait() until speaker.Character.HumanoidRootPart.Anchored == false
-    local time = tick()
-    for i, v in next, getconnections(game:GetService("Players").LocalPlayer.Character.DescendantAdded) do
-        v:Disable()
-	end
-    local success, err = pcall(function()
-        local mt = getrawmetatable(game)
-        setreadonly(mt, false)
-        local namecall = mt.__namecall
-
-        mt.__namecall = function(self,...)
-            local args = {...}
-
-            if tostring(getnamecallmethod()) == 'FindPartOnRayWithWhitelist' and getcallingscript() == game.Players.LocalPlayer.PlayerGui['_L.Handler'].GunHandlerLocal then
-                wait(9e9)
-                return
-            end
-            return namecall(self,...)
-        end
-    end)
-    
-    if success then
-        notify('Successfully bypassed anticheat\n(took '..((tick()-time))..' seconds)')
-    else
-        notify('Error', err)
-    end
 end)
 
 addcmd('copyid',{'copyuserid'},function(args, speaker)
