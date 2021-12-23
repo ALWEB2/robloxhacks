@@ -12,6 +12,13 @@ if not game:IsLoaded() then
 	notLoaded:Destroy()
 end
 
+game.StarterGui:SetCore("SendNotification", {
+Title = "New features"; -- the title (ofc)
+Text = "legitreach, superreach, loopgodmode"; -- what the text says (ofc)
+Icon = ""; -- the image if u want. 
+Duration = 10; -- how long the notification should in secounds
+})
+
 ver = '5.4.2'
 
 Players = game:GetService("Players")
