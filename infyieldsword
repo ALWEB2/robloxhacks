@@ -4546,6 +4546,9 @@ CMDs[#CMDs + 1] = {NAME = 'thirdp', DESC = 'Allows camera to go into third perso
 CMDs[#CMDs + 1] = {NAME = 'noclipcam / nccam', DESC = 'Allows camera to go through objects like walls'}
 CMDs[#CMDs + 1] = {NAME = 'maxzoom [num]', DESC = 'Maximum camera zoom'}
 CMDs[#CMDs + 1] = {NAME = 'minzoom [num]', DESC = 'Minimum camera zoom'}
+CMDs[#CMDs + 1] = {NAME = 'legitreach', DESC = 'Reach and killaura that looks legit'}
+CMDs[#CMDs + 1] = {NAME = 'superreach', DESC = 'Equip the sword and it kills everyone.'}
+CMDs[#CMDs + 1] = {NAME = 'loopgodmode', DESC = 'Can be used for game breaking glitches. (Godmode but looped)'}
 CMDs[#CMDs + 1] = {NAME = 'fov [num]', DESC = 'Adjusts field of view (default is 70)'}
 CMDs[#CMDs + 1] = {NAME = 'fixcam / restorecam', DESC = 'Fixes camera'}
 CMDs[#CMDs + 1] = {NAME = 'enableshiftlock / enablesl', DESC = 'Enables the shift lock option'}
