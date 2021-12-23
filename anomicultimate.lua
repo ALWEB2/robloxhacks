@@ -1,8 +1,5 @@
 -- made by jerrytoaster556 for mre
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Shariiii/Anomic-Stuff/main/Main%20Bypass.lua'))()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Shariiii/Anomic-Stuff/main/Pick%20All%20UnLocked%20Printers.lua'))()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Shariiii/Anomic-Stuff/main/Pick%20all%20dropped%20tools.lua'))()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Shariiii/Anomic-Stuff/main/Unlock%20and%20Cash%20Printers.lua'))()
 
 --fixed bugs
 wait(2)
