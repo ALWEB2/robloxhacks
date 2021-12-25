@@ -1,10 +1,10 @@
 -- made by jerrytoaster556 for mre
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Shariiii/Anomic-Stuff/main/Main%20Bypass.lua'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ALWEB2/robloxhacks/main/yodermre'))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/HELLLO1073/RobloxStuff/main/SMain.lua"))()
 --fixed bugs
 wait(2)
 
-loadstring(game:HttpGet('https://raw.githubusercontent.com/ALWEB2/robloxhacks/main/yodermre'))()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Shariiii/Anomic-Stuff/main/Anti%20Anti%20Teleport%20But%20Less%20Taxing.lua'))()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Shariiii/Anomic-Stuff/main/Anti%20Car%20Stuff.lua'))()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Shariiii/Anomic-Stuff/main/Anti%20Noclip%20Bypass.lua'))()
