@@ -1,7 +1,7 @@
 -- made by jerrytoaster556 for mre
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Shariiii/Anomic-Stuff/main/Main%20Bypass.lua'))()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/ALWEB2/robloxhacks/main/yodermre'))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/HELLLO1073/RobloxStuff/main/SMain.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptXHub/DiscordHiReplyBot-OLD-DOESNT-WORK-broken-/main/jjsongcatch"))()
 --fixed bugs
 wait(2)
 
