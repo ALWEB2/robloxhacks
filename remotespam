@@ -1,0 +1,43 @@
+sounds = {}
+
+function getSounds(loc)
+
+if loc:IsA("RemoteEvent") then
+
+table.insert(sounds,loc)
+
+end
+
+for _,obj in pairs(loc:GetChildren()) do
+
+getSounds(obj)
+
+end
+
+end
+
+getSounds(game)
+
+game.DescendantAdded:connect(function(obj)
+
+if obj:IsA("RemoteEvent") then
+
+table.insert(sounds,obj)
+
+end
+
+end)
+
+while wait(0.1) do
+
+for _,sound in pairs(sounds) do
+
+pcall(function()
+
+sound:FireServer()
+
+end)
+
+end
+
+end
