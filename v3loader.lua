@@ -1,2 +1,2 @@
 -- loader
-loadstring(game:HttpGet('https://unblocked-x.com/laggerfinal.lua'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ALWEB2/robloxhacks/main/laggerfinal.lua'))()
